@@ -1,0 +1,458 @@
+#NEXUS
+[Data written by write.nexus.data.R, Thu Mar  1 13:31:31 2018]
+BEGIN DATA;
+  DIMENSIONS NTAX=8 NCHAR=4000;
+  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    VIETNAM1       cccatgcaagttaaaattcctttggtgtttatagtaccgcttaatccttacaatctttctatataaaaaaaaatcccaga
+    VIETNAM10      cccatgcaagttaaaattcctttggtgtttatagtaccgcttaatccttacaaactttctatataaaaaaaaatcccaga
+    VIETNAM12      cccatgcaggttaaaattcctttggtgtttatagtaccgcttaatccttacaaactttctatataaaaaaaaatcctaga
+    VIETNAM2       cccatgcaggttaaaattcctttggtgtttatagtactgcttaatccttacaaactttctatataaaaaaaaatcccaga
+    VIETNAM3       cccatgcaagttaaanttcctttggtgtttatagtaccncttaatccttacaaactntctatataaaaaaaaatcccaga
+    VIETNAM4       cccatgcaagttaaaattcctttggtgtttatagtaccgcttaatccttacaaactttctatataaaaaaaaatcccaga
+    VIETNAM8       cccatgcangttaaaattcctttggtgtttatagtaccgcttaatccttacaaactttctatataaaaaaaaatccnaga
+    VIETNAM9       cccatgcangttaaaattcctttggtgtttatagtaccgcttaatccttacaaactttctatataaaaaaaaatccnaga
+
+    VIETNAM1       gaatttttcagtctccatacaatattaattaatatgcataaactatttatgcgcaataggatatcaagcataatcacttg
+    VIETNAM10      gaatttttcaggctccatacaatattaattaatttgcattaactatttatgcgcaataggatatccagcataatcacctg
+    VIETNAM12      gaatttttcaggctccatacaatattaattaatttgcattaactatttatgcgcaatagaatatccagcataatcacctg
+    VIETNAM2       gaatttttcaggctccatacaatattaattaatttgcattaactatttatgcgcaataggatatccagcataatcacctg
+    VIETNAM3       gaatttttcaggctccatacaatattaattantttgcattaactatttatgcgcaataggatatccagcataatcacntg
+    VIETNAM4       gaatttttcaggctccatacaatattaattaatttgcattaactatttatgcgcaataggatatccagcataatcacctg
+    VIETNAM8       gaatttttcaggctccatacaatattaattaatttgcattaactatttatgcgcaatagnatatccagcataatcacctg
+    VIETNAM9       gaatttttcaggctccatacaatattaattaatttgcattaactatttatgcgcaatagnatatccagcataatcacctg
+
+    VIETNAM1       cgtaattattttatattaattagctaatatattttttccttttcactataataatacaaaattagggggacatatttttc
+    VIETNAM10      cgtaattattttatattaattagctaatatattttttccttttcactataataatacaaaattagggggacatatttttt
+    VIETNAM12      cgtaattattttatattaattagctaatatattttttccttttcactataataatacaaaattagggggacatatttttt
+    VIETNAM2       cgtaattattttatattaattagctaatatattttttccttttcactataataatacaaaattagggggacatatttttt
+    VIETNAM3       cgtaattattttatattaattagctaatatattttttccttttcactataataatacaaaattagggggacatatttttn
+    VIETNAM4       cgtaattattttatattaattagctaatatattttttccttttcactataataatacaaaattagggggacatatttttt
+    VIETNAM8       cgtaattattttatattaattagctaatatattttttccttttcactataataatacaaaattagggggacatatttttt
+    VIETNAM9       cgtaattattttatattaattagctaatatattttttccttttcactataataatacaaaattagggggacatatttttt
+
+    VIETNAM1       gtgtaattatcattctttataatataatgacatattggaatgaaaaaagatttcgtttctaattatactaaaaatttttt
+    VIETNAM10      gtgtaattatcattctttataatataatgacatattggaatgaaaaaaaatttcgtttctaattatactaaaaatttttt
+    VIETNAM12      gtgtaattatcattctttataatataatgacatattggaatgaaaaaaaatttcgtttctaattatactaaaaatttttt
+    VIETNAM2       gtgtaattatcattctttataatataatgacatattggaatgaaaaaaaatttcgtttctaattatactaaaaatttttt
+    VIETNAM3       gtgtaattatcattctttataatataatgacatattggaatgaaaaaanatttcgtttctaattatactaaaaatttttt
+    VIETNAM4       gtgtaattatcattctttataatataatgacatattggaatgaaaaaaaatttcgtttctaattatactaaaaatttttt
+    VIETNAM8       gtgtaattatcattctttataatataatgacatattggaatgaaaaaaaatttcgtttctaattatactaaaaatntttt
+    VIETNAM9       gtgtaattatcattctttataatataatgacatattggaatgaaaaaaaatttcgtttctaattatactaaaaatttttt
+
+    VIETNAM1       ttaaagaataaattatttgtatatatgtctaatgttatatatggatattcaagggatatacatttatagcgtaaggaggg
+    VIETNAM10      ttaaaaaataaattatttgtatatatgtctaatgttatatatggatattcaagggatatacatttataacgtaaggaggg
+    VIETNAM12      ttaaaaaataaattatttgtatatatgtctaatgttatatatggatattcaagggatatacatttatagcgtaaggaggg
+    VIETNAM2       ttaaaaaataaattatttgtatatatgtctaatgttatatatggatattcaagggatatacatttatagcgtaaggaggg
+    VIETNAM3       ttaaanaataaattatttgtatatatgtctaatgttatatatggatattcaagggatatacatttatancgtaaggaggg
+    VIETNAM4       ttaaaaaataaattatttgtatatatgtctaatgttatatatggatattcaagggatatacatttataacgtaaggaggg
+    VIETNAM8       ttaaaaaataaattatttgtatatatgtctaatgttatatatggatattcanggnatatacatttatancgtaaggaggg
+    VIETNAM9       ttaaaaaataaattatttgtatatatgtctaatgttatatatggatattcaagggatatacatttatagcgtaaggaggg
+
+    VIETNAM1       acaaagcccgtttatttccattcgtaattaaaattacacccgcgggttttactttttctaccaagatagcgattatccta
+    VIETNAM10      acaaagcccgtttatttccattcgtaattaaaattacacccgcgggttttactttttctaccaagatagcgattatccta
+    VIETNAM12      acaaagcccgtttatttccattcgtaattaaaattacacccgcgggttttactttttctaccaagatagcgattatctta
+    VIETNAM2       acaaagcccgtttatttccattcgtaattaaaattacacccgcgggttttactttttctaccaagatagcgattatccta
+    VIETNAM3       acaaagcccgtttatttccattcgtaattaaaattacacccgcgggttttactttttctaccaagatagcgattatccta
+    VIETNAM4       acaaagcccgtttatttccattcgtaattaaaattacacccgcgggttttactttttctaccaagatagcgattatccta
+    VIETNAM8       acaaagcccgtttatttcnattcgtaattaaaattacacccgcgggtttnactttttctacnaagatagcgattatccta
+    VIETNAM9       acaaagcccgtttatttccattcgtaattaaaattacacccgcgggttttactttttctaccaagatagcgattatccta
+
+    VIETNAM1       tatatcaccaaagaacagtagtcaggtctattatatcaagagcgtttacatattacatcaaattgttgaaataaattaac
+    VIETNAM10      tatatcaccaaagaacagtagtcaggtttattatatcaagagcgtttacatattacatcaaattgttgaaataaattaac
+    VIETNAM12      tatatcaccaaagaacagtagtcaggtttattatatcaagagcgtttacatattacatcaaattgttgaaataaattaac
+    VIETNAM2       tatatcaccaaagaacagtagtcaggtctattatatcaagagcgtttacatattacatcaaattgtcgaaataaattaac
+    VIETNAM3       tatatcaccaaagaacagtagtcaggtttattatatcaagagcgtttacatattacatcaaattgttgaaataaattaac
+    VIETNAM4       tatatcaccaaagaacagtagtcaggtttattatatcaagagcgtttacatattacatcaaattgttgaaataaattaac
+    VIETNAM8       tatatcaccaaagaacagtagtcagntttatnatatcangagcgttnacatattacatcaaattgttgaaataaattaac
+    VIETNAM9       tatatcaccaaagaacagtagtcaggtttattatatcaagagcgtttacatattacatcaaattgttgaaataaattaac
+
+    VIETNAM1       tccaagtttaaattgtttaattccaacactagagggaaatctggtaattcttattcctgtataatcaaaccttttaaaaa
+    VIETNAM10      tccaaatttaaattatttaattcaaacactagggggaaatttggtaattcttattcctgtataatcaaaccttttaaaaa
+    VIETNAM12      tcaaaattaaaattatttaattgcaacactagagtgaaatctgctaatcctaattcctgtataatcaaacattttaaaaa
+    VIETNAM2       tccaaatttaaattatttaattcaaacactagggggaaatctggtaattcttattcctgtataatcaaaccttttaaaaa
+    VIETNAM3       tccaaatttaaattatttaattcaaacactagggggaaatttggtaattcttattcctgtataatcaaaccttttaaaaa
+    VIETNAM4       tccaaatttaaattatttaattcaaacactagggggaaatttggtaattcttattcctgtataatcaaaccttttaaaaa
+    VIETNAM8       tcnnaattnaaatnatttaatnnnaacactagngggaaatntggtaatnctnattcctgtataatcaaacnttttaanaa
+    VIETNAM9       tcnaaattnaaattatttaattnnaacactagngngaaatntgntaatnctnattcctgtataatcaaacnttttaanaa
+
+    VIETNAM1       tttttaaaaaataaatttaataactctttatattacaaaacaacggacccattatgaagatttattttaaaattatagta
+    VIETNAM10      tttttaaaaaataaatttaataactctttatattacaaaacaacggacccattatgaagatttattttaaaattatagta
+    VIETNAM12      ttttaaaaaaataaatttaataactctttatattacaaaacaacggacccattatgaagatttattttaaaattatagta
+    VIETNAM2       tttttaaaaaataaatttaataactctttatattacaaaacaacgaacccattatgaagatttattttaaaattatagta
+    VIETNAM3       tttttaaaaaataaatttaataactctttatattacaaaacaacggacccattatgaagatttattttaaaattatagta
+    VIETNAM4       tttttaaaaaataaatttaataactctttatattacaaaacaacggacccattatgaagatttattttaaaattatagta
+    VIETNAM8       ttttnaaaaaataaatttaataactctttatattacaaaacaacggacccattatgaagatttattttaaaattatagta
+    VIETNAM9       ttttnaaaaaataaatttaataactctttatattacaaaacaacggacccattatgaagatttattttaaaattatagta
+
+    VIETNAM1       taaaaaatattatttaacatggcttaaatgaatttcttgcagtatgtaagatgccaaaacttatttttttttttctattt
+    VIETNAM10      taaaaaatattatttaacatggcttaaatgaatttcttgcagtatgtaagatgccaaaacttatttttttttttctattt
+    VIETNAM12      taaaaaatattatttaacatggcttaaatgaatttcttgcagtatgtaagatgccaaaacttatttttttttttctatct
+    VIETNAM2       taaaaaatattatttaacatggcttaaatgaatttcttgcagtatgtaagatgccaaaacttatttttttttttctattt
+    VIETNAM3       taaaaaatattatttaacatggcttaaatgaatttcttgcagtatgtaagatgccaaaacttatttttttttttctattt
+    VIETNAM4       taaaaaatattatttaacatggcttaaatgaatttcttgcagtatgtaagatgccaaaacttatttttttttttctattt
+    VIETNAM8       taaaaaatattatttaacatggcttaaatgaatttcttgcagtatgtangatgccaaaacttatttttttttttctatnt
+    VIETNAM9       taaaaaatattatttaacatggcttaaatgaatttcttgcagtatgtaagatgccaaaacttatttttttttttctatnt
+
+    VIETNAM1       ccattccggaatctatttaggttaaaaattatttttatcaatgtaattgcagctattatgttaatttttataaatgttta
+    VIETNAM10      ccattccggaatctatttaagttaaaaattatttttatcaatgtaattgcagctattatgttaatttttataaatgttta
+    VIETNAM12      caattccggaatctatttaagttaaaaattatttttatcattgtaattgcagctattatgttaatatttataaatgttta
+    VIETNAM2       ccattccggaatctatttaagttaaaaattatttttatcaatgtaattgcagctattatgttaatttttataaatgttta
+    VIETNAM3       ccattccggaatctatttaagttaaaaattatttttatcaatgtaattgcagctattatgttaatttntataantgtnta
+    VIETNAM4       ccattccggaatctatttaagttaaaaattatttttatcaatgtaattgcagctattatgttaatttttataaatgttta
+    VIETNAM8       cnattccggaatctatttaagttaaaaattatttttatcantgtaattgcagctattatgttaatttttataantgtnta
+    VIETNAM9       cnattccggaatctatttaagttaaaaattatttttatcantgtaattgcagctattatgttaatntttataaatgttta
+
+    VIETNAM1       acccttatatttttaagtttatttattgttaaaaattatccaaattaaaataataaaaaatacatggtggtgaaaataat
+    VIETNAM10      acccttatatttttaagtttatttattgttaaaaattatccaaattaaaataataaaaaatacatggtggtgaaaataat
+    VIETNAM12      actgttatatttttaagtttatttattgttaaaaattatccaaattaaaataataaaaaatacatggtggtgaaaataat
+    VIETNAM2       acccttatatttttaagtttatttattgttaaaaattatccaaattaaaataataaaaaatacatggtggtgaaaataat
+    VIETNAM3       acccttatatttttaagtttatttattgttaaaaattatccaaattaaaataataaaaaatacatggtggtgaaaataat
+    VIETNAM4       acccttatatttttaagtttatttattgttaaaaattatccaaattaaaataataaaaaatacatggtggtgaaaataat
+    VIETNAM8       acccttatatttttaagtttatttattgttaaaaattatccaaattaaaataataaaaaatacatggtggtgaaaataat
+    VIETNAM9       acnnttatatttttaagtttatttattgttaaaaattatccaaattaaaataataaaaaatacatggtggtgaaaataat
+
+    VIETNAM1       ttaatcaatggccaacataagcataaaaattatttaagccttacgtattaatttctttttaataaataatattctgccaa
+    VIETNAM10      ttaatcaatggccaacataagcataaaaattatttgagccctacgtatttatttccttttaataaataatattctgccaa
+    VIETNAM12      ttaatcaatggccaacataagcataaaaattatttgagccttacgtatttatttctttttaataaataatattctgccaa
+    VIETNAM2       ttaatcaatgaccaacataagcataaaaattatttgagccctacgtatttatttccttttaataaataatattctgccaa
+    VIETNAM3       ttaatcaatggccaacataagcataaaaattatttgagccctacgtatttatttccttttaataaataatattctgccaa
+    VIETNAM4       ttaatcaatggccaacataagcataaaaattatttgagccctacgtatttatttccttttaataaataatattctgccaa
+    VIETNAM8       ttaatcaatggccaacataagcataaaaattatttgagccntacgtattnatttcnttttaataaataatattctgcnaa
+    VIETNAM9       ttaatcaatggccaacataagcataaaaattatttgagccntacgtatttatttcnttttaataaataatattctgccaa
+
+    VIETNAM1       attacattaaagctataaaaattgttgattagttatatttgaaggaaaatatgatgaaagtctgccccataatattttta
+    VIETNAM10      attaaaataaagctataaaaattgttgattagttatatttgaaggaaaatatgatggaagtctgccccataatattttta
+    VIETNAM12      attaaaataaagctataaaaattgttgattagtaatatttgaagaagaatatgatggaagtctgccccataatattttta
+    VIETNAM2       attacaataacgctataaaaattgttgattagttatatttgaaggaaaatatgatggaagtctgccccataatattttta
+    VIETNAM3       attaaaataaagctataaaaattgttgattagttatatttgaaggaaaatatgatggaagtctgccccataatattttta
+    VIETNAM4       attaaaataaagctataaaaattgttgattagttatatttgaaggaaaatatgatggaagtctgccccataatattttta
+    VIETNAM8       attaaaataaagctataaaaattgttgattagtaatatttgaagaagaatatgatggaagtctgccccataatattttta
+    VIETNAM9       attaaaataaagctataaaaattgttgattagtnatatttgaagnanaatatgatggaagtctgccccataatattttta
+
+    VIETNAM1       ttatattaatagaagcaaataaaaatattaattatatagttcatatgttatcatataatatacatatgcctgagtacatc
+    VIETNAM10      ttatattaatagaagcaaataaaaatattaattatatagttcatatgttatcatataatatacatatgcccgagtacatc
+    VIETNAM12      ttatattaatagaagcaaataaaaatattaattatatagttcatatgttatcatataatatacatatgcccgagtacatc
+    VIETNAM2       ttatattaatagaagcaaataaaaatattaattatatagttcatatgttatcatataatatacatatgcccgagtacatc
+    VIETNAM3       ttatattaatagaagcaaataaaaatattaattatatagttcatatgttatcatataatatacatatgcccgagtacatc
+    VIETNAM4       ttatattaatagaagcaaataaaaatattaattatatagttcatatgttatcatataatatacatatgcccgagtacatc
+    VIETNAM8       ttatattaatagaagcaaataaaaatattaattatatagttcatatgttatcatataatatacatatgccngagtacatc
+    VIETNAM9       ttatattaatagaagcaaataaaaatattaattatatagttcatatgttatcatataatatacatatgccngagtacatc
+
+    VIETNAM1       acagtaaccataccataatattattatcaagagtttcttacacgtataccaaatttaaacattattttatgggaataaaa
+    VIETNAM10      acagtaaccgtaccataaaattattatcaagagtttcttacacgtataccaaatttaaacattattttatgggaataaaa
+    VIETNAM12      acagtaaccgtaccataaaattattatcaagagtttcttacacgtataccaaatttaaacattattttatgggaataaaa
+    VIETNAM2       acagtaaccgtaccataaaattattatcaagagtctcttacacgtataccaaatttgaacattatgttatgggaataaaa
+    VIETNAM3       acagtaaccgtaccataaaattattatcaagagtttcttacacgtataccaaattnnaacattattttatgggaataaaa
+    VIETNAM4       acagtaaccgtaccataaaattattatcaagagtttcttacacgtataccaaatttaaacattattttatgggaataaaa
+    VIETNAM8       acagtaaccgtaccataaaattatnatcaagagtttcttacacgtataccaaatttaaacattattttatgngaataaaa
+    VIETNAM9       acagtaaccgtaccataaaattattatcaagagtttcttacacgtataccaaatttaaacattattttatgggaataaaa
+
+    VIETNAM1       tataagtacatataaaattacacaatttttaatgttttgaaaaaaaattaaatgaagttgtgctttaaaattaattaaaa
+    VIETNAM10      tataagtacatataaaattacacaatttttaatgttttgaaaaaaaattaaatgaagttgtgctttaaaattaattaaaa
+    VIETNAM12      tataagtacatataaaattacacaatttttagtgttttgaaaaaaaattaaatgaagttgtgctttaaaattaattaaaa
+    VIETNAM2       tataagtacatataaaattacacaatttttaatgttttgaaaaaaaattaaatgaagttgtgctttaaaattaattaaaa
+    VIETNAM3       tataagtacatataaaattacacaatttttantgttttgaaaaaaaattaaatgaagttgtgctttaaaattaattaaaa
+    VIETNAM4       tataagtacatataaaattacacaatttttaatgttttgaaaaaaaattaaatgaagttgtgctttaaaattaattaaaa
+    VIETNAM8       tataagtacatataaaattacacaatttttantgttttgaaaaaaaattaaatgaagttgtgctttaaaattaattaaaa
+    VIETNAM9       tataagtacatataaaattacacaatttttantgttttgaaaaaaaattaaatgaagttgtgctttaaaattaattaaaa
+
+    VIETNAM1       tatatcatattaaaaataaaaaacatgtaattataatagatctagtattatattagcaaaagagaatgcatttttttttt
+    VIETNAM10      tatatcatattaaaaataaaaaacatgtaattataatagatctagtattatattagcaaaagagaatgcatttttttttt
+    VIETNAM12      tatatcatattaaaaataaaaaacatgtaattataatagatctagtattatattagcaaaagagaatgcatttttttttt
+    VIETNAM2       tatatcatattaaaaataaaaaacatgtaattataatagatctagtattatattagcaaaagagaatgcatttttttttt
+    VIETNAM3       tatatcatattaaaaataaaaaacatgtaattataatagatctagtattatattagcaaaagagaatgcatttttttttt
+    VIETNAM4       tatatcatattaaaaataaaaaacatgtaattataatagatctagtattatattagcaaaagagaatgcatttttttttt
+    VIETNAM8       tatatcatattaaaaataaaaaacatgtaattataatagatctagtattatattagcaaaagagaatgcatttttttttt
+    VIETNAM9       tatatcatattaaaaataaaaaacatgtaattataatagatctagtattatattagcaaaagagaatgcatttttttttt
+
+    VIETNAM1       ttattattagatatataaatatccataaaatcttcgttatataaattaatgcttttgtatgtaatataacattataggtt
+    VIETNAM10      ttattattagatatataaatatccataaaatcttcgttatataaattaatgcttttgtatgtaatataacattataggtt
+    VIETNAM12      ttattattagatatataaatatccataaaatcttcgttatataaattaatgcttttgtatgtaatataacattataggtt
+    VIETNAM2       ttattattagatatataaatatccataaaatcttcgttatataaattaatgcttttgtatgtaatataacattataggtt
+    VIETNAM3       ttattattagatatataaatatccataaaatcttcgttatataaattaatgcttttgtatgtaatataacattataggtt
+    VIETNAM4       ttattattagatatataaatatccataaaatcttcgttatataaattaatgcttttgtatgtaatataacattataggtt
+    VIETNAM8       ttattattagatatataaatatccataaaatcttcgttatataaattaatgcttttgtatgtaatataacattataggtt
+    VIETNAM9       ttattattagatatataaatatccataaaatcttcgttatataaattaatgcttttgtatgtaatataacattataggtt
+
+    VIETNAM1       aatatatttgtaattgcaatattctacaattttgaaaattttattattagaaccaaaatatgtgataaaaaaaatttaat
+    VIETNAM10      aatatatttgtaattgcaatattctacaattttgaaaattttattattagaaccaaaatatgtgataaaaaaaatttaat
+    VIETNAM12      aatatatttgtaattgcaatattctacaattttgaaaattttattattagaacaaaaatatgtgataaaaaaaatttaat
+    VIETNAM2       aatatatttgtaattgcaatattctacaattttgaaaattttattattagaaccaaaatatgtgataaaaaaaatttaat
+    VIETNAM3       aatatatttgtaattgcaatattctacaattttgaaaattttattattagaacnaaantatgtgataaaaaaaatttaat
+    VIETNAM4       aatatatttgtaattgcaatattctacaattttgaaaattttattattagaaccaaaatatgtgataaaaaaaatttaat
+    VIETNAM8       aatatatttgtaattgcaatattctacaattttgaaaattttattattagaaccaaaatatgtgataaaaaaaatttaat
+    VIETNAM9       aatatatttgtaattgcaatattctacaattttgaaaattttattattagaacnaaaatatgtgataaaaaaaatttaat
+
+    VIETNAM1       acataataatctccccataaacaaattgcttacctataagtcattcattatattacaataatgattattattatatctac
+    VIETNAM10      acataataatctccccataaacaaattgcttacctataagtcattcattatattacaataatgattattattatatctac
+    VIETNAM12      acataataatctccccataaacaaattgctaacctataagtcattcattatattacaataatgattattattatatctac
+    VIETNAM2       acataataatctccccataaacaaattgcttacctataagtcattcattatattacaataatgattattattatatctac
+    VIETNAM3       acataataatctccccataaacaaattgcttacctataagtcattcattatattacaataatgattattattatatctac
+    VIETNAM4       acataataatctccccataaacaaattgcttacctataagtcattcattatattacaataatgattattattatatctac
+    VIETNAM8       acataataatctccccataaacaaattgcttacctataagtcattcattatattacaataatgattattattatatctac
+    VIETNAM9       acataataatctccccataaacaaattgcttacctataagtcattcattatattacaataatgattattattatatctac
+
+    VIETNAM1       ttctataatgtttttgcaaattcactaaacaaatttgttatatttatttcagcacttttattttgtaaattatttcccct
+    VIETNAM10      ttctataatgtttttgcaaattcactaaacaaatttgttatatttatttcagcacttttattttgtaaattatttcccct
+    VIETNAM12      ttctataatgtttttgcaaattcactaaacaaattagttatatttatttcagcacttttattttgtaaattatttcccct
+    VIETNAM2       ttctataatgtttttgcaaattcactaaacaaatttgttatatttatttcagcacttttattttgtaaattatttcacct
+    VIETNAM3       ttctataatgtttttgcaaattcactaaacaaatttgttatatttatttcagcacttttattttgtaaattatttcccct
+    VIETNAM4       ttctataatgtttttgcaaattcactaaacaaatttgttatatttatttcagcacttttattttgtaaattatttcccct
+    VIETNAM8       ttctataatgtttttgcaaattcactaaacaaattngttatatttatttcagcacttttattttgtaaattatttcccct
+    VIETNAM9       ttctataatgtttttgcaaattcactaaacaaatttgttatatttatttcagcacttttattttgtaaattatttcncct
+
+    VIETNAM1       tgaatgttattacaaggaaatggtttacattaatatatttttttttaatttcactgttaatcacagatttttttagtata
+    VIETNAM10      tgaatgttattacaaggaaatggtttacattaatatatttttttttaatttcactgttaatcacagatttttttagtata
+    VIETNAM12      caaatgttattacaaggaaatggtttacattaatatatttttttttaatttcactgttaatcacagatttttttagtata
+    VIETNAM2       tgaatgttattacaaggaaatggtttacattaatatatttttttttaatttcactgttaatcacagatttttttagtata
+    VIETNAM3       tgaatgttattacaaggaaatgnnttacattaatatatttttttttaatttcactgttaatcacagatttttttagtata
+    VIETNAM4       tgaatgttattacaaggaaatggtttacattaatatatttttttttaatttcactgttaatcacagatttttttagtata
+    VIETNAM8       tgaatgttattacaaggaaatgnnttacattaatatatttttttttaatttcactgttaatcacagatttttttagtata
+    VIETNAM9       tgaatgttattacaaggaaatggtttacattaatatatttttttttaatttcactgttaatcacagatttttttagtata
+
+    VIETNAM1       tacatttatatatttttgtgattaacatagaataataaaattttgtatttttttttaattaaccatataatagatcctag
+    VIETNAM10      tacatttatatatttttgtgattaacatagaataataaaattttgtatttttttttaattaaccatataataggtcccag
+    VIETNAM12      tacatttatatatttttgtgattaacatagaataataaaattttgtatttttttttaattaaccatataatagaccccag
+    VIETNAM2       tacatttatatatttttgtgattaacatagaataataaaattttgtatttttttttaattaacaatataataggtcccag
+    VIETNAM3       tacatttatatatttttgtgattaacatagaataataaaattttgtatttttttttaattaaccatataatagntcccag
+    VIETNAM4       tacatttatatatttttgtgattaacatagaataataaaattttgtatttttttttaattaaccatataatagatcctag
+    VIETNAM8       tacatttatatatttttgtgattaacatagaataataaaattttgtatttttttttaattaaccatataatagnncccag
+    VIETNAM9       tacatttatatatttttgtgattaacatagaataataaaattttgtatttttttttaattaacnatataataggtcccag
+
+    VIETNAM1       gcatcattaagtttcaagaattataaaatattatccatacaataatgtatttataaaggttaatttggaatataataagg
+    VIETNAM10      gcattattaagttttaaaaattataaaatattatccatacaataatgtatttataaaggttaatttggaatataataagg
+    VIETNAM12      tctttattaagttttaaaaattataaattattatcaatacagtaatgtatttataaaggttaatttggaatatattaagg
+    VIETNAM2       gcattattaagttttaaaaattataaaatattatccatacaataatgtatttataaaggttaatttggaatataacaagg
+    VIETNAM3       gcattattaagttttaaaaattataaantattatccatacantantgtatttataaagnttaatttggaatatantaagg
+    VIETNAM4       gcatcattaagtttcaagaattataaaatattatccatacaataatgtatttataaaggttaatttggaatataataagg
+    VIETNAM8       gcntnattaagtttnaanaattataaaatattatccatacaataatgtatttataaaggttaatttggaatataataagg
+    VIETNAM9       gcattattaagttttaaaaattataaaatattatccatacaataatgtatttataaaggttaatttggaatataanaagg
+
+    VIETNAM1       tttttattatatcctgtttttcgggatgaaatagagacccatacattatcactataggtaagtaagtttttaaaataaaa
+    VIETNAM10      gttttattatatccagtttttcgggatggaataaaaacccataccttatcaccaaaggtaagtaagtttttaaaaaaaaa
+    VIETNAM12      gttttattatatcctgtttttcgggatggaataaaaactcataccttatcaccaaaggtaagtaagtttttaaaaaaaga
+    VIETNAM2       gttttattatatccagtttttcggtatggaataaaaacccataccttatcaccaaaggtaagtaagtttttaaaaaaaaa
+    VIETNAM3       gttttattatatccagtttttcgggatggaataaaaacncataccttatcacnaaaggtaagtaagtttttaaaaaaaaa
+    VIETNAM4       tttttattatatcctgtttttcgggatgaaatagagacccatacattatcactataggtaagtaagtttttaaaataaaa
+    VIETNAM8       nttttattatatccngtttttcgggatgnaatananacncatacnttatcacnanaggtaagtaagtttttaaaanaaaa
+    VIETNAM9       gttttattatatccagtttttcggnatggaataaaaacccataccttatcaccaaaggtaagtaagtttttaaaaaaaaa
+
+    VIETNAM1       attatcatttccgtcttttgatttatttattttattgttttgtaaaataaatcatagaacttgtaatcgacagaattaat
+    VIETNAM10      attatcctttccgtcttttgatttatttattttattgttttgtaaaataaatcatagaacttgtaatcgacagaattaat
+    VIETNAM12      attatcctttcagtcttttgatttatttattttattgttttgtaaaataaatcatagaacttgtaatcgacagaattaat
+    VIETNAM2       attatcctttccgtcttttgatttatttattttatcgttttgtaaaataaatcatagaacttgtaatcgacagaattaat
+    VIETNAM3       attatcctttccgtcttttgatttatttattttattgttttgtaaaataaatcatagaacttgtaatcgacagaattaat
+    VIETNAM4       attatcatttccgtcttttgatttatttattttattgttttgtaaaataaatcatagaacttgtaatcgacagaattaat
+    VIETNAM8       attatcctttccgtcttttgatttatttattttattgttttgtaaaataaatcatagaacttgtaatcgacagaattaat
+    VIETNAM9       attatcctttccgtcttttgatttatttattttatngttttgtaaaataaatcatagaacttgtaatcgacagaattaat
+
+    VIETNAM1       gctcctcttctaggattaacaaatatatcgaaaagaaggtgaaagggataataatcattcctaataatttcattgatcta
+    VIETNAM10      tcttctcttctaggattaacaaatatatcgaaaagaaggtgaaagggataataattattcctaataatttcattgatcta
+    VIETNAM12      tcttctcttctaggattatcaagtatatcgaaaagatggtgaaagggataataattattcctaataatttcattgatcta
+    VIETNAM2       tcttctcttctagtatcaacaaatatatcgaaaagaaggtgaaagggataataatttttcctaataatttcattgatcta
+    VIETNAM3       tnttctcttctaggattaacaaatatatcgaaaagaaggtgaaagggataataattattcctaataatttcattgatcta
+    VIETNAM4       gctcctcttctaggattaacaaatatatcgaaaagaaggtgaaagggataataatcattcctaataatttcattgatcta
+    VIETNAM8       nctnctcttctaggattancaantatatcgaaaagaaggtgaaagggataataattattcctaataatttcattgatcta
+    VIETNAM9       tcttctcttctagnatnaacaaatatatcgaaaagaaggtgaaagggataataattnttcctaataatttcattgatcta
+
+    VIETNAM1       ccggaaattattgaactacattcaatattccacaaaaaatacataaaataagaattactacaaccaaggaatttcattat
+    VIETNAM10      ccggaaattattgaactacattccatattccacaaaaaatacataaaataagaattactacaaccaaggaatttcattat
+    VIETNAM12      ctggaaattattgaactacattcaatattccacaaaaaatacataaaataagaattactacaaccaaggaatttcattat
+    VIETNAM2       ccggaaattattgaactacataccatattccacaaaaaatacataaaataagaattactacaaccaaggaatttcattat
+    VIETNAM3       ccggaaattattgaactacattcaatattccacaaaaaatacataaaataagaattactacaaccaaggaatttcattat
+    VIETNAM4       ccggaaattattgaactacattcaatattccacaaaaaatacataaaataagaattactacaaccaaggaatttcattat
+    VIETNAM8       ccggaaattattgaactacattcnatattccacaaaaaatacataaaataagaattactacaaccaaggaatttcattat
+    VIETNAM9       ccggaaattattgaactacatnccatattccacaaaaaatacataaaataagaattactacaaccaaggaatttcattat
+
+    VIETNAM1       attataatacatatatttttttaaaacaatatatataaaaattttatatatataaattttcttaatattaattatcaacc
+    VIETNAM10      attataatacatatatttttttaaaacaatatatataaaaattttatatatataaattttcttaatattaattatcaacc
+    VIETNAM12      attataatacatatatttttttaaaacaatatatataaaaattttatatatataaattttcttaatattaattatcaacc
+    VIETNAM2       attataatacatatatttttttaaaacaatatatataaaaattttatatatataaattttcttaatattaattatcaacc
+    VIETNAM3       attataatacatatatttttttaaaacaatatatataaaaattttatatatataaattttcttaatattaattatcaacc
+    VIETNAM4       attataatacatatatttttttaaaacaatatatataaaaattttatatatataaattttcttaatattaattatcaacc
+    VIETNAM8       attataatacatatatttttttaaaacaatatatataaaaattttatatatataaattttcttaatattaattatcaacc
+    VIETNAM9       attataatacatatatttttttaaaacaatatatataaaaattttatatatataaattttcttaatattaattatcaacc
+
+    VIETNAM1       catatttaaaaattgatttctctaaaaatgttaataagttattttatttatgtaaatttttttaataatttccttaaata
+    VIETNAM10      catatttaaaaattgatttctctaaaaatgttaataagttattttatttatgtaaatttttttaataatttccttaaata
+    VIETNAM12      catatttaaaaattgatttctctaaaaatgttaataagttattttatttatgtaaatttttttaataatttccttaaata
+    VIETNAM2       catatttaaaaattgatttctctaaaaatgttaataagttattttatttatgtaaatttttttaataatttccttaaata
+    VIETNAM3       catatttaaaaattgatttctctaaaaatgttaataagttattttatttatgtaaatttttttaataatttccttaaata
+    VIETNAM4       catatttaaaaattgatttctctaaaaatgttaataagttattttatttatgtaaatttttttaataatttccttaaata
+    VIETNAM8       catatttaaaaattgatttctctaaaaatgttaataagttattttatttatgtaaatttttttaataatttccttaaata
+    VIETNAM9       catatttaaaaattgatttctctaaaaatgttaataagttattttatttatgtaaatttttttaataatttccttaaata
+
+    VIETNAM1       ataaatatactgaatttaattttaatcgaaaatttttcacatttaataacgtctataataattgacaattataacattat
+    VIETNAM10      ataaatatactgaatttaattttaatcgaaaatttttcacatttaataacgtctataataattgacaattataacattat
+    VIETNAM12      ataaatatactgaatttaattttaatcgaaaatttttcacatttaataacgtctataataattgacaattataacattat
+    VIETNAM2       ataaatatactgaatttaattttaatcgaaaatttttcacattcaataacgtctataataattgacaattataacattat
+    VIETNAM3       ataaatatactgaatttaattttaatcgaaaatttttcacatttaataacgtctataataattgacaattataacattat
+    VIETNAM4       ataaatatactgaatttaattttaatcgaaaatttttcacatttaataacgtctataataattgacaattataacattat
+    VIETNAM8       ataaatatactgaatttaattttaatcgaaaatttttcacatttaataacgtctataataattgacaattataacattat
+    VIETNAM9       ataaatatactgaatttaattttaatcgaaaatttttcacattnaataacgtctataataattgacaattataacattat
+
+    VIETNAM1       ttattattattttaaaaaaaattttaatttgtatttaaataagacaaaaaacacaatagataaaaatatctatataggcc
+    VIETNAM10      ttattattattttaaaaaaaattttaatttgtatttaaataagacaaaaaacacaatagataaaaatatctatataggcc
+    VIETNAM12      ttattattattttaaaaaaaattttaatttgtatttaaataagacaaaaaacacaatagatagaaatatctatataggcc
+    VIETNAM2       ttattattattttaaaaaaaattttaatttgtatttaaataagacaaaaaacacaatagataaaaatatctatataggcc
+    VIETNAM3       ttattattattttaaaaaaaattttaatttgtatttaaataagacaaaaaacacaatagataaaaatatctatataggcc
+    VIETNAM4       ttattattattttaaaaaaaattttaatttgtatttaaataagacaaaaaacacaatagataaaaatatctatataggcc
+    VIETNAM8       ttattattattttaaaaaaaattttaatttgtatttaaataagacaaaaaacacaatagatanaaatatctatataggcc
+    VIETNAM9       ttattattattttaaaaaaaattttaatttgtatttaaataagacaaaaaacacaatagataaaaatatctatataggcc
+
+    VIETNAM1       ctataaaagtctagattattcagtctttaaaattacaaacttcagaaatgaaattagacaaaatgaaagggaaatttaaa
+    VIETNAM10      ctataaaaggctagattattcagtctttaaaattacaaacctcagaaatgaaaataaacaaaatgaaagggaaatttaaa
+    VIETNAM12      ctataaaaggctagattattcagtctttaaaattacaaacttcagaaatgaaattagacaaaatgaaagggaaatttaaa
+    VIETNAM2       ctataaaaggctagattattcagtctttaaaattacaaaccgcagaaatgaaaataaacaaaatgaaagggaagtttaag
+    VIETNAM3       ctataanagnctagattattcagtctttaaaattacaaacctcagaaatgaaaataaacaaaatgaaagggaaatttaaa
+    VIETNAM4       ctataaaagtctagattattcagtctttaaaattacaaacctcagaaatgaaaataaacaaaatgaaagggaaatttaaa
+    VIETNAM8       ctataanagnctagattattcagtctttaaaattacaaacntcagaaatgaaantanacaaaatgaaagggaaatttaaa
+    VIETNAM9       ctataaaaggctagattattcagtctttaaaattacaaaccncagaaatgaaaataaacaaaatgaaagggaantttaan
+
+    VIETNAM1       tttctcaatttaaccaagacaattacctattcattcttattttgggcctgttagtattacagctatgtataataacaata
+    VIETNAM10      tttctcaatttaaccaaaaaaattacctattcattcttattttgggcctgttaatattacaggtatgtataataacaata
+    VIETNAM12      tttctcaatttaaccaagacaattacctattcattcttattttggtcttgttaatattacaggtatgtataataacaata
+    VIETNAM2       tttctcaatttaactaaaaaaattacttattcattcttattttgggcctgttaatatcacaggcatgtataataacaata
+    VIETNAM3       tttctcaatttaaccaaaaaaattacctattcattcttattttgggcctgttaatattacaggtatgtataataacaata
+    VIETNAM4       tttctcaatttaaccaaaaaaattacctattcattcttattttgggcctgttaatattacaggtatgtataataacaata
+    VIETNAM8       tttctcaatttaaccaananaattacctattcattcttattttgggcctgttantattacagntatgtataataacaata
+    VIETNAM9       tttctcaatttaacnaaaaaaattacntattcattcttattttgggcctgttaatatnacaggnatgtataataacaata
+
+    VIETNAM1       ttttaaataacttctctttattaaacatttatatataaaatataattatcttattatgggaagtattcattttttaaata
+    VIETNAM10      ttttaaataacttctctttattaaacatttatatataaaatataattatcttattatgggaagtattcattttttaaata
+    VIETNAM12      ttttaaataacttctctttattaaacatttatatataaaatataattatcttattatgggaagtattcattttttaaata
+    VIETNAM2       ttttaaataacttctctttattaaacatttatatataaaatataattatcttattatgggaagtattcattttttaaata
+    VIETNAM3       ttttaaataacttctctttattaaacatttatatataaaatataattatcttattatgggaagtattcattttttaaata
+    VIETNAM4       ttttaaataacttctctttattaaacatttatatataaaatataattatcttattatgggaagtattcattttttaaata
+    VIETNAM8       ttttaaataacttctctttattaaacatttatatataaaatataattatcttattatgggaagtattcattttttaaata
+    VIETNAM9       ttttaaataacttctctttattaaacatttatatataaaatataattatcttattatgggaagtattcattttttaaata
+
+    VIETNAM1       aatttattatttccttttttttttcagaatacaaaccttgggtccaaagatattaagcgtaacctcgaggtttctttaaa
+    VIETNAM10      aatttattatttccttttttttttcagaatacaaaccttgggtccaaagatattaagcggaaccttgaagtttctttaaa
+    VIETNAM12      aatttattatttccttttttttttcagaatacagacctcgggtccaaagatattaagcggaaccttgaagtttctttaaa
+    VIETNAM2       aatttattatttccttttttttttcagattacaaactttgggtccaaagatattaagcggaaccttgaagtttctttaaa
+    VIETNAM3       aatttattatttccttttttttttcagaatacaaaccttgggtccaaagatattaagcggaaccttgaagtttctttaaa
+    VIETNAM4       aatttattatttccttttttttttcagaatacaaaccttggatccaaagatattaagcggaaccttgaagtttctttaaa
+    VIETNAM8       aatttattatttccttttttttttcagaatacaaaccttgggtccaaagatattaagcgnaacctngangtttctttaaa
+    VIETNAM9       aatttattatttccttttttttttcagantacaaacnttgggtccaaagatattaagcggaaccttgaagtttctttaaa
+
+    VIETNAM1       tttacgaaattggccattattaatgaaaaatgaaatagaacatgagtcaatgtacgatcaaaaggaagaaagtgatgtgt
+    VIETNAM10      tttacgaaattggcnattattaaacaaaaatgaaatagaacatgaatcaatgtacgatcaaaaggaagaaagtgatgtgt
+    VIETNAM12      tttacgaaattgaccattattaatcaaaaatgaaatagaacatgaatcaatgtacgatcaaatggaagaaagtgatgtgt
+    VIETNAM2       tttacgaaattggccattattaaacaaaaatgaaatagaacatgaatcaatgtacgatcaaaaggaagaaagtgatgtgt
+    VIETNAM3       tttacgaaattggccattattaaacaaaaatgaaatagaacatgaatcaatgtacgatcaaaaggaagaaagtgatgtgt
+    VIETNAM4       tttacgaaattggccattattaaacaaaaatgaaatagaacatgagtcaatgtacgatcaaaaggaagaaagtgatgtgt
+    VIETNAM8       tttacgaaattggccattattaatgaaaaatgaaatagaacatgagtcaatgtacgatcaaaaggaagaaagtgatgtgt
+    VIETNAM9       tttacgaaattggccattattaaacaaaaatgaaatagaacatgaatcaatgtacgatcaaaaggaagaaagtgatgtgt
+
+    VIETNAM1       ggataaattgatcacataaaataaaaaaggacaaagaacctaaagaacataacgtttttgggaggatagatttctatggc
+    VIETNAM10      ggataaattggtcaaataaaataaaaaaggacaaagaacctaaagaacataacgttttttggaggataaatttctatggc
+    VIETNAM12      ggataaattggtcaaataaaataaaaaaggacaaagaacctaaagaacataacgttttttagtggatagatttctatggc
+    VIETNAM2       ggataaatgggtcaaataaaataaaaaaggacaaagaacctaaagaacataacgttttttgaagaataaatttctatggc
+    VIETNAM3       ggataaattggtcaaataaaataaaaaaggacaaagaacctaaagaacataacgttttttggaggataaatttctatggc
+    VIETNAM4       ggataaattgatcaaataaaataaaaaaggacaaagaacctaaagaacataacgttttttggagaataaatttctatggc
+    VIETNAM8       ggataaattgntcanataaaataaaaaaggacaaagaacctaaagaacataacgtttttnngaggatanatttctatggc
+    VIETNAM9       ggataaatnggtcaaataaaataaaaaaggacaaagaacctaaagaacataacgttttttggaggataaatttctatggc
+
+    VIETNAM1       taaaaggaaatatttgatagacctaatgaaatggaatatatggttaatgataagaatattaggaggagtaaatattactg
+    VIETNAM10      caaaaggaaatatttgataggcctaatgaaatggaaaatatggttaatgataagaatattaggaggagtaaatattactg
+    VIETNAM12      taaaaggaaatatttgataggcttagtgaaatggaaaatatggttaatgataagaatattagaagaagtaaatattactg
+    VIETNAM2       caaaaggaaatatttgataggcctaatgaaatggaaaatatggttaatgataagaatattaggaggagtaaatattactg
+    VIETNAM3       caaaaggaaatatttgataggcctaatgaaatggaaaatatggttaatgataagaatattaggaggagtaaatattactg
+    VIETNAM4       caaaagtaaatatttgataggcctaatgaaatggaaaatatggttaatgataagaatattaggaggagtaaatattactg
+    VIETNAM8       naaaaggaaatatttgatagncntantgaaatggaaaatatggttaatgataagaatattagnagnagtaaatattactg
+    VIETNAM9       caaaaggaaatatttgataggcctaatgaaatggaaaatatggttaatgataagaatattaggaggagtaaatattactg
+
+    VIETNAM1       gaaggtattaaaaatctgtggaccattttggatcttacccacagttattggtgcttcatctaatttttttaaaactgaag
+    VIETNAM10      gaaggtattaaaaatctgtggaccattttggatcttacccacagttattggtgcttcatctaatttttttaaaactgaag
+    VIETNAM12      gaaggtattaaaaatctgtggaccattttggatcttacccacagttattggtgcttcatctaatttttttaaaactgaag
+    VIETNAM2       gaaggtattaaaaatctgtggaccattttggatcttacccacagttattggtgcttcatctaatttttttaaaactgaag
+    VIETNAM3       gaaggtattaaaaatctgtggaccattttggatcttacccacagttattggtgcttcatctaatttttttaaaactgaag
+    VIETNAM4       gaagatattaaaaatctgtggaccattttggatcttacccacagttattggtgcttcatctaatttttttaaaactgaag
+    VIETNAM8       gaaggtattaaaaatctgtggaccattttggatcttacccacagttattggtgcttcatctaatttttttaaaactgaag
+    VIETNAM9       gaaggtattaaaaatctgtggaccattttggatcttacccacagttattggtgcttcatctaatttttttaaaactgaag
+
+    VIETNAM1       gaagcccctatcaaaatgaaatatgtggcgttctcattcctattgtaataatcattttgttaattgtaatatatatttct
+    VIETNAM10      gaagcccctatcaaaatgaaatatgtggcgttctcattcctattgtaataatcattttgttaattgtaatatatatttct
+    VIETNAM12      gaagcccctatcaaaatgaaatatgtggcgttctcattcctattgtaataatcattttgttaattgtaatatatatttct
+    VIETNAM2       gaagcccctatcaaaatgaaatatgtggcgttctcattcctattgtaataatcattttgttaattgtaatatatatttct
+    VIETNAM3       gaagcccctatcaaaatgaaatatgtggcgttctcattcctattgtaataatcattttgttaattgtaatatatatttct
+    VIETNAM4       gaagcccctatcaaaatgaaatatgtggcgttctcattcctattgtaataatcattttgttaattgtaatatatatttct
+    VIETNAM8       gaagcccctatcaaaatgaaatatgtggcgttctcattcctattgtaataatcattttgttaattgtaatatatatttct
+    VIETNAM9       gaagcccctatcaaaatgaaatatgtggcgttctcattcctattgtaataatcattttgttaattgtaatatatatttct
+
+    VIETNAM1       ttaataaatataaaatatcattatttaaaaaataaaaaaaataaaaatatgcttcaactcattaattttaaggcttcaaa
+    VIETNAM10      ttaataaatataaaatatcattatttaaaaaataaaaaaaataaaaatatgcttcaactcattaattttaaggcttcaaa
+    VIETNAM12      ttaataaatataaaatatcattatttaaaaaataaaaaaaataaaaatatgcttcaactcattaatttaaaggcttcaaa
+    VIETNAM2       ttaataaatataaaatatcattatttaaaaaataaaaaaaataaaaatatgcttcaactcattaattttaaggcttcaaa
+    VIETNAM3       ttaataaatataaaatatcattatttaaaaaataaaaaaaataaaaatatgcttcaactcattaattttaaggcttcaaa
+    VIETNAM4       ttaataaatataaaatatcattatttaaaaaataaaaaaaataaaaatatgcttcaactcattaattttaaggcttcaaa
+    VIETNAM8       ttaataaatataaaatatcattatttaaaaaataaaaaaaataaaaatatgcttcaactcattaattttaaggcttcaaa
+    VIETNAM9       ttaataaatataaaatatcattatttaaaaaataaaaaaaataaaaatatgcttcaactcattaattttaaggcttcaaa
+
+    VIETNAM1       gaacatttcctaaatttcatgtattttagacattcatttcagttcacaggattaaaattaacatcatatatatatgatac
+    VIETNAM10      gaacattncctaaatttcatgtattttagacattcatttcagttcacaggattaaaattaacatcatatatatatgatac
+    VIETNAM12      gaacatttcataattttcatgtattttagacattcatttcagttcacaggattaaaattaacatcatatatatatgatac
+    VIETNAM2       gaacatttcctaaattgcatgtattttagacattcatttcagttcacaggattaaaattaacatcatatatatatgatac
+    VIETNAM3       gaacatttcctaaattncatgtattttagacattcatttcagttcacaggattaaaattaacatcatatatatatgatac
+    VIETNAM4       gaacatttcctaaattgcatgtattttagacattcatttcagttcacaggattaaaattaacatcatatatatatgatac
+    VIETNAM8       gaacatttcctaaatttcatgtattttagacattcatttcagttcacaggattaaaattaacatcatatatatatgatac
+    VIETNAM9       gaacatttcctaaattncatgtattttagacattcatttcagttcacaggattaaaattaacatcatatatatatgatac
+
+    VIETNAM1       tttaatcaacatatattataacgcaacagcccataaagaacactaaaaaaaaatacgtataataatccataagcaattct
+    VIETNAM10      tttaatcaacatatattataacgcaacagcccataaagaacactaaaaaaaaatacgtataataatccataagcaattct
+    VIETNAM12      tttaatcaacatatattataacgcaacagcccataaagaacactaaaaaaaaatacgtataataatccataagcaattct
+    VIETNAM2       tttaatcaacatatattataacgcaacagcccataaagaacactaaaaaaaaatacgtataataatccatatgcaattct
+    VIETNAM3       tttaatcaacatatattataacgcaacagcccataaagaacactaaaaaaaaatacgtataataatccatangcaattct
+    VIETNAM4       tttaatcaacatatattataacgcaacagcccataaagaacactaaaaaaaaatacgtataataatccatatgcaattct
+    VIETNAM8       tttaatcaacatatattataacgcaacagcccataaagaacactaaaaaaaaatacgtataataatccataagcaattct
+    VIETNAM9       tttaatcaacatatattataacgcaacagcccataaagaacactaaaaaaaaatacgtatantaatccataagcaattct
+
+    VIETNAM1       tttgtgtttccatttttattgtatattatattcttatttcaatgaaatttattgatttaatattttaaataaatatatat
+    VIETNAM10      tttgtgtttccatttttattgtatattatattcttatttcaatgaaatttattgatttaatattttaaataaatatatat
+    VIETNAM12      tttgtgtttccatttttattgtatattatattcttatttcaatgaaatttattgatttaatattttaaataaatatatat
+    VIETNAM2       tttgtgtttccatttttattgtatattatattcttatttcaatgaaatttattgatttaatattttaaataaatatatat
+    VIETNAM3       tttgtgtttccatttttattgtatattatattcttatttcaatgaaatttattgatttaatattttaaataaatatatat
+    VIETNAM4       tttgtgtttccatttttattgtatattatattcttatttcaatgaaatttattgatttaatattttaaataaatatatat
+    VIETNAM8       tttgtgtttccatttttattgtatattatattcttatttcaatgaaatttattgatttaatattttaaataaatatatat
+    VIETNAM9       tttgtgtttccatttttattgtatattatattcttatttcaatgaaatttattgatttaatattttaaataaatatatat
+
+    VIETNAM1       aagcatataataatttataagaatgcctaattttgttcttatttatgtttaacataaaatatttatcttgttgccagcaa
+    VIETNAM10      aagcatataataatttataagaatgcctaattttgtncttatttatgtttancataaaatatttatcttgttnccagcaa
+    VIETNAM12      aagcatataataatttataagaatgcctaattttgttcttatttatgtttaacataaaatatttatcttgttgccagcaa
+    VIETNAM2       aagcatataataatttataagaatgcctatttttgttcttatttatgtttaacataaaatatttatcttgtagccagcaa
+    VIETNAM3       aagcatataataatttataagaatgcctanttttgttcttatttatgtttaacataaaatatttatcttgtngccagcaa
+    VIETNAM4       aagcatataataatttataagaatgcctatttttgttcttatttatgtttaacataaaatatttatcttgtagccagcaa
+    VIETNAM8       aagcatataataatttataagaatgcctaattttgttcttatttatgtttaacataaaatatttatcttgttgccagcaa
+    VIETNAM9       aagcatataataatttataagaatgcctaattttgttcttatttatgtttaacataaaatatttatcttgttgccagcaa
+
+    VIETNAM1       atatattcatatttccctaattaccatagcatgaaaattaaattttagtacattaaggtaaatttttgatgtaagtccaa
+    VIETNAM10      atatattcatatttccctaattaccatagcatgaaaattaaattttagtacattaaggtaaatttttgatgtangtccaa
+    VIETNAM12      atatattcatattaccctaattaccatagcatgaaaattaaattttagtacattaaggtaaatttttgatgtaagtccaa
+    VIETNAM2       atatattcatatttccttaattaccatagcatgaaaattaaattttagtacattaaggtaaatttttgatgtaagtccaa
+    VIETNAM3       atatattcatatttccntaattaccntagcatgaaaattaaattttagtacattaaggtaaatttttgatgtaagtccaa
+    VIETNAM4       atatattcatatttccttaattaccatagcatgaaaattaaattttagtacattaaggtaaatttttgatgtaagtccaa
+    VIETNAM8       atatattcatattnccctaattaccatagcatgaaaattaaattttagtacattaaggtaaatttttgatgtaagtccaa
+    VIETNAM9       atatattcatatttccctanttacnatagcatgaaaattanattttagtacattaaggtaaatttttgatgtaagtccaa
+
+    VIETNAM1       aatatattaaattaatattatttttattttcttggtttgtttttaatgcacatttacatttggcttaggttcataaaaac
+    VIETNAM10      aatatattaaattaatattatttttattttcttggtttgtttttaattcacatttacctttggcttaggttcctaaaaac
+    VIETNAM12      aatatattaaattaatattatttttattttcttggtttgtttttaattcacatttacctttggcttaggttcctaaaaac
+    VIETNAM2       aatatattaaattaatattatttttattttcttggtttgtttttaattcacatttacctttgacttaggttcctaaaaac
+    VIETNAM3       aatatattaaattaatattatttttattttcttggtttgtttttaattcacatttacctttgncttaggttcctaaaaac
+    VIETNAM4       aatatattaaattaatattatttttattttcttggtttgtttttaattcacatttacctttgacttaggttcctaaaaac
+    VIETNAM8       aatatattaaattaatattatttttattttcttggtttgtttttaattcacatttacctttggcttaggttcctaaaaac
+    VIETNAM9       aatatattaaattaatattattnntattntcttgnttngtntttaattnacatttacctttggcttaggttcctaaaaac
+
+    VIETNAM1       taattatttgaacacctaaccatatataaaatataattattttttttaaatagagtttcctcattggattattaaaacca
+    VIETNAM10      taattatttgaacacctaaccatatataaaatataattattttttttaaatagaatttcctccttggnttattaaaacca
+    VIETNAM12      taattatttgaacacctaaccatatataaaatataattattttttttaaatagaatttcctccttgggttattaaaacca
+    VIETNAM2       taattatttgaacacctaaccatatataaaatataattattttttttaaatagaatttcctccttgggttattaaaacta
+    VIETNAM3       taattatttgaacacctaaccatatataaaatataattattttttttaaatagaatttcctccttgggttattaaaacna
+    VIETNAM4       taattatttgaacacctaaccatatataaaatataattattttttttaaatagaatttcctccttgggttattaaaacta
+    VIETNAM8       taattatttgaacacctaaccatatataaaatataattattttttttaaatagaatttcctccttgggttattaaaacca
+    VIETNAM9       taattatttgaacacctaaccatatataaaatataattattttttttaaatagaatttcctccttgggttattaaaacca
+  ;
+END;
+

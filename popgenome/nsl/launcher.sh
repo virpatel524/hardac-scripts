@@ -24,9 +24,9 @@ rm -rf /home/vdp5/data/poptests/nsl/input/${1}/splitted/${base}
 
 
 
-python2.7 /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/convert_nsl_format_step1.py --vcfdir /home/vdp5/data/poptests/nsl/input/${1}/splitted/ --sample ${1}
-rm -rf /home/vdp5/data/poptests/nsl/input/${1}/splitted/
-bash /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/launch_nsl.sh ${1}
+# python2.7 /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/convert_nsl_format_step1.py --vcfdir /home/vdp5/data/poptests/nsl/input/${1}/splitted/ --sample ${1}
+# rm -rf /home/vdp5/data/poptests/nsl/input/${1}/splitted/
+# bash /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/launch_nsl.sh ${1}
 python2.7 /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/develop_data.py --directory /gpfs/fs0/data/wraycompute/vdp5/poptests/nsl/input/${sample}/ --sample ${1} --mastervcf ${3}
 sbatch /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/rangelaunch.py --sample ${sample} --mastervcf ${vcftotal} --range 2000
 sbatch /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/rangelaunch.py --sample ${sample} --mastervcf ${vcftotal} --range 1000

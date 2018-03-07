@@ -15,7 +15,7 @@ tab = list(csv.reader(open(args.tabfile),delimiter='\t'))
 
 
 
-aggregate = matrixsec + matrixnon
+aggregate = matrixsec
 
 lociset = []
 sampset = []
@@ -36,9 +36,9 @@ for beta in tab:
 					samp2matrix.setdefault(samps[index], []).append('1')
 
 
-newdata = open('/home/vdp5/data/poptests/nsl/output/1-MT/txtfiles/matrix_select_non_sampnamestoo.txt', 'w')
+newdata = open('/home/vdp5/data/poptests/nsl/output/1-MT/txtfiles/matrix_selectonly_sampnamestoo.txt', 'w')
 
-numer = open('/home/vdp5/data/poptests/nsl/output/1-MT/txtfiles/matrix_select_non_sampnamestoo_number.txt', 'w')
+numer = open('/home/vdp5/data/poptests/nsl/output/1-MT/txtfiles/matrix_selectonly_sampnamestoo_number.txt', 'w')
 
 counter = 0
 for beta in lociset:

@@ -3,6 +3,7 @@ import csv
 import argparse
 import sys
 import operator, math
+import shutil
 
 
 parser = argparse.ArgumentParser()
@@ -27,13 +28,19 @@ for filename in os.listdir(args.directory):
 
 toppercentile = int(0.001 * len(datatotal))
 
-sorted_datatotal = sorted(datatotal,key=operator.itemgetter(2))
+sorted_datatotal = sorted(datatotal,key=operator.itemgetter(2), reverse=True)
+
+print sorted_datatotal[:100]
+
+
 tops = sorted_datatotal[:toppercentile + 1]
 
 
 if not os.path.isdir('/home/vdp5/data/poptests/nsl/output/{}'.format(args.sample)):
 	os.mkdir('/home/vdp5/data/poptests/nsl/output/{}'.format(args.sample))
-
+else:
+	shutil.rmtree('/home/vdp5/data/poptests/nsl/output/{}'.format(args.sample))
+	os.mkdir('/home/vdp5/data/poptests/nsl/output/{}'.format(args.sample))
 
 if not os.path.isdir('/home/vdp5/data/poptests/nsl/output/{}/txtfiles/'.format(args.sample)):
 	os.mkdir('/home/vdp5/data/poptests/nsl/output/{}/txtfiles/'.format(args.sample))

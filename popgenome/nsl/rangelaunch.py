@@ -25,7 +25,7 @@ chromlengths = {}
 for beta in chromdata:
 	chromlengths[beta[0]] = int(beta[1])
 
-topsets = list(csv.reader(open('/gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/randomset100.20minor.txt'),delimiter='\t'))
+topsets = list(csv.reader(open('/gpfs/fs0/data/wraycompute/vdp5/poptests/nsl/output/{}/txtfiles/toplst.txt'.format(args.sample)),delimiter='\t'))
 
 if not os.path.isdir('/home/vdp5/data/poptests/nsl/output/{}/'.format(args.sample)):
 	os.mkdir('/home/vdp5/data/poptests/nsl/output/{}/'.format(args.sample))
@@ -104,47 +104,47 @@ for beta in topsets:
 	bignexus_str_pruned = '/home/vdp5/data/poptests/nsl/output/{}/{}/fasta/{}_{}_{}-range.nonmissing.pruned'.format(args.sample, args.range, beta[0], beta[1], args.range)
 
 
-	newstr = 'plink --vcf {} --indep-pairwise 50 10 0.5 --out /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/prunedset --double-id --allow-extra-chr'.format(bigvcf_str, args.sample, args.range) 
-	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
-	process.wait()
+	# newstr = 'plink --vcf {} --indep-pairwise 50 10 0.5 --out /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/prunedset --double-id --allow-extra-chr'.format(bigvcf_str, args.sample, args.range) 
+	# process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
+	# process.wait()
 
-	newstr = 'plink --vcf {} --extract /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/prunedset.prune.in --double-id --allow-extra-chr --make-bed --out  /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/prunedData'.format(bigvcf_str, args.sample, args.range, args.sample, args.range) 
-	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
-	process.wait()
+	# newstr = 'plink --vcf {} --extract /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/prunedset.prune.in --double-id --allow-extra-chr --make-bed --out  /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/prunedData'.format(bigvcf_str, args.sample, args.range, args.sample, args.range) 
+	# process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
+	# process.wait()
 
-	newstr = 'plink --bfile /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/prunedData --recode vcf --out {} --double-id --allow-extra-chr'.format(args.sample, args.range, bigvcf_str_pruned)
-	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
-	process.wait() 
+	# newstr = 'plink --bfile /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/prunedData --recode vcf --out {} --double-id --allow-extra-chr'.format(args.sample, args.range, bigvcf_str_pruned)
+	# process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
+	# process.wait() 
 
 
-	newstr = 'bgzip -c /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/{}_{}_{}-range.nonmissing.pruned.vcf > /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/{}_{}_{}-range.nonmissing.pruned.vcf.gz'.format(args.sample, args.range, beta[0], beta[1], args.range, args.sample, args.range, beta[0], beta[1], args.range)
-	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
-	process.wait()
+	# newstr = 'bgzip -c /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/{}_{}_{}-range.nonmissing.pruned.vcf > /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/{}_{}_{}-range.nonmissing.pruned.vcf.gz'.format(args.sample, args.range, beta[0], beta[1], args.range, args.sample, args.range, beta[0], beta[1], args.range)
+	# process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
+	# process.wait()
 
-	newstr = 'tabix -p vcf /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/{}_{}_{}-range.nonmissing.pruned.vcf.gz'.format(args.sample, args.range, beta[0], beta[1], args.range)
-	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
-	process.wait()
+	# newstr = 'tabix -p vcf /home/vdp5/data/poptests/nsl/output/{}/{}/vcf/{}_{}_{}-range.nonmissing.pruned.vcf.gz'.format(args.sample, args.range, beta[0], beta[1], args.range)
+	# process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
+	# process.wait()
 
 	newstr = 'python2.7 /gpfs/fs0/data/wraycompute/vdp5/bin/alignment-from-vcf.py /gpfs/fs0/data/wraycompute/vdp5/reference_data/PVP01.fasta {} {} {} {} 1 {} '.format(bigvcf_str, beta[0], start, end, bigfasta_str)
 	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
 	process.wait()
 
-	newstr = 'python2.7 /gpfs/fs0/data/wraycompute/vdp5/bin/alignment-from-vcf.py /gpfs/fs0/data/wraycompute/vdp5/reference_data/PVP01.fasta {}.vcf.gz {} {} {} 1 {} '.format(bigvcf_str_pruned, beta[0], start, end, bigfasta_str_pruned)
-	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
-	process.wait()
+	# newstr = 'python2.7 /gpfs/fs0/data/wraycompute/vdp5/bin/alignment-from-vcf.py /gpfs/fs0/data/wraycompute/vdp5/reference_data/PVP01.fasta {}.vcf.gz {} {} {} 1 {} '.format(bigvcf_str_pruned, beta[0], start, end, bigfasta_str_pruned)
+	# process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
+	# process.wait()
 
 	newstr = 'python2.7 /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/clean_fasta.py --fasta {}'.format(bigfasta_str)
 	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
 	process.wait()
 
-	newstr = 'python2.7 /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/clean_fasta_pruned.py --fasta {}'.format(bigfasta_str_pruned)
-	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
-	process.wait()
+	# newstr = 'python2.7 /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/clean_fasta_pruned.py --fasta {}'.format(bigfasta_str_pruned)
+	# process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
+	# process.wait()
 
 	newstr = ' Rscript /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/convert_fasta2nexus.R {}'.format(bigfasta_str)
 	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
 	process.wait()
 
-	newstr = ' Rscript /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/convert_fasta2nexus_pruned.R {}'.format(bigfasta_str_pruned)
-	process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
-	process.wait()
+	# newstr = ' Rscript /gpfs/fs0/data/wraycompute/vdp5/scripts/popgenome/nsl/convert_fasta2nexus_pruned.R {}'.format(bigfasta_str_pruned)
+	# process = subprocess.Popen([newstr,], stdout=subprocess.PIPE,shell=True)
+	# process.wait()

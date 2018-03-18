@@ -31,9 +31,12 @@ for theta in ['1000', '2000', '5000', '10000', '20000']:
 	for beta in goodies:
 		if not os.path.isdir((os.path.join(root, 'consolidated/', beta, theta))):
 			os.mkdir(os.path.join(root, 'consolidated/', beta, theta))
-		shutil.copy(os.path.join(root,theta, 'fasta', '{}_{}-range.nonmissing.nex'.format(beta, theta)),os.path.join(root, 'consolidated/', beta,theta, '{}_{}-range.nonmissing.nex'.format(beta, theta) ))
-		shutil.copy(os.path.join(root,theta, 'vcf', '{}_{}-range.nonmissing.popargs'.format(beta, theta)),os.path.join(root, 'consolidated/', beta, theta,  '{}_{}-range.nonmissing.popargs'.format(beta, theta)))
-		shutil.copy(os.path.join(root,theta, 'vcf', '{}_{}-range.nonmissing.traits'.format(beta, theta)),os.path.join(root, 'consolidated/', beta, theta, '{}_{}-range.nonmissing.traits'.format(beta, theta)))
+		try:
+			shutil.copy(os.path.join(root,theta, 'fasta', '{}_{}-range.nonmissing.nex'.format(beta, theta)),os.path.join(root, 'consolidated/', beta,theta, '{}_{}-range.nonmissing.nex'.format(beta, theta) ))
+			shutil.copy(os.path.join(root,theta, 'vcf', '{}_{}-range.nonmissing.popargs'.format(beta, theta)),os.path.join(root, 'consolidated/', beta, theta,  '{}_{}-range.nonmissing.popargs'.format(beta, theta)))
+			shutil.copy(os.path.join(root,theta, 'vcf', '{}_{}-range.nonmissing.traits'.format(beta, theta)),os.path.join(root, 'consolidated/', beta, theta, '{}_{}-range.nonmissing.traits'.format(beta, theta)))
+		except:
+			x= 5
 
 
 
